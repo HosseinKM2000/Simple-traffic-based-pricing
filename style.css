@@ -1,0 +1,42 @@
+body
+{
+    height: 100vh;
+}
+.fit-content
+{
+    width: fit-content;
+}
+.fs-6
+{
+    font-size: 1rem !important;
+}
+.fs-7
+{
+    font-size: 0.8rem !important;
+}
+.fs-8
+{
+    font-size: 0.6rem !important;
+}
+.outline-none
+{
+    outline: none !important;
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+.cursor-pointer:hover
+{
+    filter: brightness(1.1);
+}
+input[type="range"]::-webkit-slider-thumb
+{
+}
+input[type="range"]::-webkit-slider-runnable-track
+{
+}
+input[type="range"]::-webkit-slider-runnable-track
+{
+    color: brown;
+}

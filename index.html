@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./node_modules//bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./app.css">
+        <title>Interactive pricing component</title>
+    </head>
+    <body class="container bg-secondary">
+        <div class="mx-auto w-50 pt-5">
+            <div class="d-flex justify-content-center flex-column align-items-center">
+                <h5>Simple, traffic-based pricing</h5>
+                <p>sign-up for our 30-day trial. No credit card required</p>
+            </div>
+        </div>
+        <div class="bg-white text-secondary fit-content mx-auto p-5 mt-5 rounded-1 shadow-sm">
+            <div class="d-flex align-items-center gap-5">
+                <span>100k  PAGEVIEWS</span>
+                <div>
+                    <span class="fs-3 fw-bold">$</span>
+                    <output class="fs-3 fw-bold">16.00</output>
+                    <span>/month</span>
+                </div>
+            </div>
+            <div>
+                <input type="range" name="" id="" class="w-100 my-3" step="10.5" min="0" max="1000" style="--c: lightblue;--l: 6px;--g:12px;">
+            </div>
+            <div class="d-flex gap-3 fs-7 w-full justify-content-end align-items-center">
+                <span>Monthly Billing</span>
+                <div>
+                    <div></div>
+                    <span>Yearly Billing</span>
+                </div>
+                <span class="badge bg-warning text-danger fs-6 cursor-pointer" id="discountBadge">21% discount</span>
+                <div class="d-flex gap-1 align-items-center" id="discountBox">
+                    <input type="number" class="w-100" id="discountValue" max="3" min="0">
+                    <span>%</span>
+                </div>
+            </div>
+            <hr>
+            <div class="row w-full">
+                <div class="text-dark fs-7 d-flex flex-column gap-1 col-auto">
+                    <div>
+                        <span>&#9989;</span>
+                        <span>Unlimited Websites</span>
+                    </div>
+                    <div>
+                        <span>&#9989;</span>
+                        <span>100% data ownership</span>
+                    </div>
+                    <div>
+                        <span>&#9989;</span>
+                        <span>Email Reports</span>
+                    </div>
+                </div>
+                <div class="col-auto d-flex align-items-center justify-content-center ms-5">
+                    <button type="button" class="py-1 px-5 cursor-pointer rounded-5 text-white fs-7 bg-dark  border-0">start my trial</button>
+                </div>
+            </div>
+        </div>
+    <script src="./script.js"></script>
+    </body>
+</html>
